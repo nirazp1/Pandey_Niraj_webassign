@@ -1,0 +1,24 @@
+/* change the font of the document */
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* set the background color */
+body {
+  background-color: #9694a2;
+}
+
+/* class for header text */
+.header-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #390816;
+}
+
+/* class for body text */
+.body-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #288eaa;
+}
