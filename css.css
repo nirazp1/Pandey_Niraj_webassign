@@ -1,24 +1,37 @@
-/* change the font of the document */
 body {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-/* set the background color */
-body {
-  background-color: #9694a2;
-}
-
-/* class for header text */
-.header-text {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  color: #390816;
-}
-
-/* class for body text */
-.body-text {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #288eaa;
-}
+    background-color: #EFEFEF;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  table, th, td {
+    border: 2px solid #006699;
+  }
+  
+  b {
+    color: #006699;
+  }
+  
+  .container_input {
+    border: 2px solid #006699;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #006699;
+  }
+  
+  button {
+    background-color: #006699;
+    color: #EFEFEF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #FFC107;
+    cursor: pointer;
+  }
+  
